@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+            color: white;
+            padding: 10px 8px;
+="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌍 Flag Master - Guess the Country!</title>
     <style>
@@ -100,4 +99,83 @@
         
         .stat-card {
             background: linear-gradient(135deg, #4a5568, #2d3748);
-            }
+                        color: white;
+                    color: white;
+            padding: 10px 8px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 6px 16px rgba(45, 55, 72, 0.2);
+            transition: transform 0.2s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-1px);
+        }
+        
+        .stat-value {
+            font-size: clamp(1rem, 3.5vw, 1.5rem);
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        
+        .stat-label {
+            font-size: clamp(0.65rem, 2vw, 0.8rem);
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        
+        .flag-section {
+            text-align: center;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+        
+        .flag-container {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 8px;
+        }
+        
+        .flag {
+            width: clamp(100px, 22vw, 160px);
+            height: clamp(67px, 14.7vw, 107px);
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            object-fit: cover;
+            transition: transform 0.2s ease;
+            border: 2px solid rgba(255, 255, 255, 0.9);
+        }
+        
+        .flag:hover {
+            transform: scale(1.02);
+        }
+        
+        .timer-container {
+            margin-top: 8px;
+        }
+        
+        .timer-bar {
+            width: 100%;
+            height: 5px;
+            background: #e2e8f0;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 4px;
+        }
+        
+        .timer-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #e53e3e, #ed8936, #48bb78);
+            transition: width 0.1s linear;
+            border-radius: 3px;
+        }
+        
+        .timer-text {
+            font-size: clamp(0.75rem, 2.5vw, 0.9rem);
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .options-container {
+            display: grid;
+        }
